@@ -1,0 +1,6 @@
+.img__login--admin {
+    background-image: url(../../assets/admin/loginAdmin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+}

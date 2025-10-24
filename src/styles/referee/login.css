@@ -1,0 +1,12 @@
+.login__refeere {
+    background-image: url(../../assets/referee/login2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.login__refeere .absolute {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

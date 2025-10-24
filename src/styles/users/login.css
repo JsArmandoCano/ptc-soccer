@@ -1,0 +1,6 @@
+.login__user {
+    background-image: url(../../assets/users/login_user.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 20%;
+}
