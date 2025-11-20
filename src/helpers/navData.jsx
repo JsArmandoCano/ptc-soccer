@@ -1,10 +1,11 @@
 import { AiOutlineDashboard } from "react-icons/ai"
 import { TbSoccerField } from "react-icons/tb"
 import { GiSoccerBall } from "react-icons/gi"
+import { IoTrophySharp } from "react-icons/io5"
 import { FaUsers } from "react-icons/fa"
 import { LiaClipboardListSolid } from "react-icons/lia"
 import { GiWhistle } from "react-icons/gi"
-import { AiOutlineSound } from "react-icons/ai"
+import { FaGear } from "react-icons/fa6"
 import { MdOutlineLogout } from "react-icons/md"
 
 export const navAdmin = [
@@ -16,39 +17,39 @@ export const navAdmin = [
     },
     {
         id: 2,
-        name: "Temporadas",
-        icon: <GiSoccerBall />,
-        url: "/admin/user",
+        name: "Torneos",
+        icon: <IoTrophySharp />,
+        url: "/admin/temporadas",
     },
     {
         id: 3,
         name: "Partidos",
-        icon: <TbSoccerField />,
-        url: "/admin/user",
+        icon: <GiSoccerBall />,
+        url: "/admin/partidos",
     },
     {
         id: 4,
         name: "Equipos",
         icon: <FaUsers />,
-        url: "/admin/user",
+        url: "/admin/equipos",
     },
     {
         id: 5,
         name: "Inscripciones",
         icon: <LiaClipboardListSolid />,
-        url: "/admin/user",
+        url: "/admin/inscripciones",
     },
     {
         id: 6,
         name: "Árbitros",
         icon: <GiWhistle />,
-        url: "/admin/user",
+        url: "/admin/arbitros",
     },
     {
         id: 7,
-        name: "Avisos",
-        icon: <AiOutlineSound />,
-        url: "/admin/user",
+        name: "Ajustes",
+        icon: <FaGear />,
+        url: "/admin/ajustes",
     },
     {
         id: 8,

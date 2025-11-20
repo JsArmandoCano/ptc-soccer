@@ -1,0 +1,15 @@
+.img__login--admin {
+    background-image: url(../../assets/admin/loginAdmin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.custom-table-positions .ant-table-thead > tr > th {
+    background-color: transparent;
+    color: #0d9488;
+    border-bottom: 2px solid #0d9488;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

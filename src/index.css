@@ -2,10 +2,19 @@
 @import "tailwindcss";
 
 body {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
+@theme {
+    --color-secondary: #0d9488;
+}
+
+.content-sections {
+    @apply bg-white p-3 shadow-sm rounded-lg;
+}
+
 
 /* .montserrat-<uniquifier> {
   font-family: "Montserrat", sans-serif;

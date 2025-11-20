@@ -1,9 +1,9 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
 
-import { Input, Checkbox, Button } from 'antd';
-import { UserOutlined, LockOutlined } from '@ant-design/icons';
+import { Input, Checkbox, Button } from 'antd'
+import { UserOutlined, LockOutlined } from '@ant-design/icons'
 
-import '../../styles/admin/login.css'
+import '../../styles/admin/styles.css'
 import Logo from '../../assets/logoPhantom.png'
 
 
