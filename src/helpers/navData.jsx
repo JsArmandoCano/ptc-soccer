@@ -17,7 +17,7 @@ export const navAdmin = [
     },
     {
         id: 2,
-        name: "Torneos",
+        name: "Torneo",
         icon: <IoTrophySharp />,
         url: "/admin/temporadas",
     },
